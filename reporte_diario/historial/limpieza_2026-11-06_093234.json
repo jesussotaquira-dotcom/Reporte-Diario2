@@ -1,0 +1,459 @@
+{
+  "fecha": "2026-11-06",
+  "fecha_ayer": "2026-11-05",
+  "sprint": 16,
+  "tipo": "Gestión",
+  "autor": "Jesús Sotaquira",
+  "saludo": "Buen día",
+  "blocker": "No",
+  "ripor_proyecto": null,
+  "ripor_tarea": null,
+  "ripor_nombre": "",
+  "ripor_horas": null,
+  "transporte": "moto_particular",
+  "drive_url": "",
+  "ripor_registros": {},
+  "tareas": [
+    {
+      "seccion": "ayer",
+      "descripcion": "Participación en la sesión de Daily Siniestros.",
+      "id": "d356bd28",
+      "categoria": "Reuniones",
+      "work_items": [],
+      "wi_titulos": {},
+      "tarea": "Daily Siniestros",
+      "tipo": "Gestión",
+      "estado_tk": "",
+      "inicio": "09:00",
+      "fin": "09:15",
+      "horas": null,
+      "puntos": null,
+      "crear_tk": true,
+      "origen": "calendar:24m1oks4m6heb4rmne2br9v12l_R20260918T140000@google.com|2026-11-05T09:00:00-05:00",
+      "tks": [],
+      "resultado": {
+        "drive": {
+          "estado": "ok",
+          "detalle": "Incluida en el documento (actualizado)."
+        },
+        "chat": {
+          "estado": "ok",
+          "detalle": "Incluida en el mensaje enviado."
+        },
+        "fecha": "2026-11-06T08:19:57",
+        "azure": {
+          "estado": "omitido",
+          "detalle": "Sin work item relacionado: solo va a Drive y Chat."
+        }
+      }
+    },
+    {
+      "seccion": "ayer",
+      "descripcion": "Participación en la sesión de 416 - Validación de preguntas funcionales para specs.",
+      "id": "4aa288ab",
+      "categoria": "Reuniones",
+      "work_items": [],
+      "wi_titulos": {},
+      "tarea": "416 - Validación de preguntas funcionales para specs",
+      "tipo": "Gestión",
+      "estado_tk": "",
+      "inicio": "09:30",
+      "fin": "16:00",
+      "horas": null,
+      "puntos": null,
+      "crear_tk": true,
+      "origen": "calendar:1bl9skpf44rqm8dru3quldkgnf@google.com|2026-11-05T09:30:00-05:00",
+      "tks": [],
+      "resultado": {
+        "drive": {
+          "estado": "ok",
+          "detalle": "Incluida en el documento (actualizado)."
+        },
+        "chat": {
+          "estado": "ok",
+          "detalle": "Incluida en el mensaje enviado."
+        },
+        "fecha": "2026-11-06T08:19:57",
+        "azure": {
+          "estado": "omitido",
+          "detalle": "Sin work item relacionado: solo va a Drive y Chat."
+        }
+      }
+    },
+    {
+      "seccion": "ayer",
+      "descripcion": "Participación en la sesión de [Pausa Activa AM] ¡Activemos juntos nuestro cuerpo y mente!.",
+      "id": "949f95cf",
+      "categoria": "Reuniones",
+      "work_items": [],
+      "wi_titulos": {},
+      "tarea": "[Pausa Activa AM] ¡Activemos juntos nuestro cuerpo y mente!",
+      "tipo": "Gestión",
+      "estado_tk": "",
+      "inicio": "11:00",
+      "fin": "11:15",
+      "horas": null,
+      "puntos": null,
+      "crear_tk": true,
+      "origen": "calendar:7gs9lstahk7jhkokuas5o299c6_R20261105T160000@google.com|2026-11-05T11:00:00-05:00",
+      "tks": [],
+      "resultado": {
+        "drive": {
+          "estado": "ok",
+          "detalle": "Incluida en el documento (actualizado)."
+        },
+        "chat": {
+          "estado": "ok",
+          "detalle": "Incluida en el mensaje enviado."
+        },
+        "fecha": "2026-11-06T08:19:57",
+        "azure": {
+          "estado": "omitido",
+          "detalle": "Sin work item relacionado: solo va a Drive y Chat."
+        }
+      }
+    },
+    {
+      "seccion": "ayer",
+      "descripcion": "Participación en la sesión de Automatización reporte de tareas TK.",
+      "id": "d26c32e6",
+      "categoria": "Reuniones",
+      "work_items": [],
+      "wi_titulos": {},
+      "tarea": "Automatización reporte de tareas TK",
+      "tipo": "Gestión",
+      "estado_tk": "",
+      "inicio": "13:30",
+      "fin": "14:30",
+      "horas": null,
+      "puntos": null,
+      "crear_tk": true,
+      "origen": "calendar:6c1tnekdspo1e2n86g5iancng1@google.com|2026-11-05T13:30:00-05:00",
+      "tks": [],
+      "resultado": {
+        "drive": {
+          "estado": "ok",
+          "detalle": "Incluida en el documento (actualizado)."
+        },
+        "chat": {
+          "estado": "ok",
+          "detalle": "Incluida en el mensaje enviado."
+        },
+        "fecha": "2026-11-06T08:19:57",
+        "azure": {
+          "estado": "omitido",
+          "detalle": "Sin work item relacionado: solo va a Drive y Chat."
+        }
+      }
+    },
+    {
+      "seccion": "ayer",
+      "descripcion": "Participación en la sesión de 🚭Cap- ¡Prevención del consumo de tabaco! 🙌.",
+      "id": "117bd1ef",
+      "categoria": "Reuniones",
+      "work_items": [],
+      "wi_titulos": {},
+      "tarea": "🚭Cap- ¡Prevención del consumo de tabaco! 🙌",
+      "tipo": "Gestión",
+      "estado_tk": "",
+      "inicio": "15:00",
+      "fin": "16:00",
+      "horas": null,
+      "puntos": null,
+      "crear_tk": true,
+      "origen": "calendar:77vao6unaafmcvpp7ssafimj20@google.com|2026-11-05T15:00:00-05:00",
+      "tks": [],
+      "resultado": {
+        "drive": {
+          "estado": "ok",
+          "detalle": "Incluida en el documento (actualizado)."
+        },
+        "chat": {
+          "estado": "ok",
+          "detalle": "Incluida en el mensaje enviado."
+        },
+        "fecha": "2026-11-06T08:19:57",
+        "azure": {
+          "estado": "omitido",
+          "detalle": "Sin work item relacionado: solo va a Drive y Chat."
+        }
+      }
+    },
+    {
+      "seccion": "ayer",
+      "descripcion": "Participación en la sesión de [Pausa Activa PM] ¡Activemos juntos nuestro cuerpo y mente!.",
+      "id": "34f9fe10",
+      "categoria": "Reuniones",
+      "work_items": [],
+      "wi_titulos": {},
+      "tarea": "[Pausa Activa PM] ¡Activemos juntos nuestro cuerpo y mente!",
+      "tipo": "Gestión",
+      "estado_tk": "",
+      "inicio": "16:00",
+      "fin": "16:15",
+      "horas": null,
+      "puntos": null,
+      "crear_tk": true,
+      "origen": "calendar:51igke2sbatfamh0nfduiu06h8_R20261105T210000@google.com|2026-11-05T16:00:00-05:00",
+      "tks": [],
+      "resultado": {
+        "drive": {
+          "estado": "ok",
+          "detalle": "Incluida en el documento (actualizado)."
+        },
+        "chat": {
+          "estado": "ok",
+          "detalle": "Incluida en el mensaje enviado."
+        },
+        "fecha": "2026-11-06T08:19:57",
+        "azure": {
+          "estado": "omitido",
+          "detalle": "Sin work item relacionado: solo va a Drive y Chat."
+        }
+      }
+    },
+    {
+      "seccion": "hoy",
+      "descripcion": "Participación en la sesión de Daily Siniestros.",
+      "id": "0819cdd9",
+      "categoria": "Reuniones",
+      "work_items": [],
+      "wi_titulos": {},
+      "tarea": "Daily Siniestros",
+      "tipo": "Gestión",
+      "estado_tk": "",
+      "inicio": "09:00",
+      "fin": "09:15",
+      "horas": null,
+      "puntos": null,
+      "crear_tk": true,
+      "origen": "calendar:24m1oks4m6heb4rmne2br9v12l_R20260918T140000@google.com|2026-11-06T09:00:00-05:00",
+      "tks": [],
+      "resultado": {
+        "drive": {
+          "estado": "ok",
+          "detalle": "Incluida en el documento (actualizado)."
+        },
+        "chat": {
+          "estado": "ok",
+          "detalle": "Incluida en el mensaje enviado."
+        },
+        "fecha": "2026-11-06T08:19:57",
+        "azure": {
+          "estado": "omitido",
+          "detalle": "Sin work item relacionado: solo va a Drive y Chat."
+        }
+      }
+    },
+    {
+      "seccion": "hoy",
+      "descripcion": "Participación en la sesión de 416 - Validación de preguntas funcionales para specs.",
+      "id": "4c9629b3",
+      "categoria": "Reuniones",
+      "work_items": [],
+      "wi_titulos": {},
+      "tarea": "416 - Validación de preguntas funcionales para specs",
+      "tipo": "Gestión",
+      "estado_tk": "",
+      "inicio": "09:30",
+      "fin": "16:00",
+      "horas": null,
+      "puntos": null,
+      "crear_tk": true,
+      "origen": "calendar:1bl9skpf44rqm8dru3quldkgnf@google.com|2026-11-06T09:30:00-05:00",
+      "tks": [],
+      "resultado": {
+        "drive": {
+          "estado": "ok",
+          "detalle": "Incluida en el documento (actualizado)."
+        },
+        "chat": {
+          "estado": "ok",
+          "detalle": "Incluida en el mensaje enviado."
+        },
+        "fecha": "2026-11-06T08:19:57",
+        "azure": {
+          "estado": "omitido",
+          "detalle": "Sin work item relacionado: solo va a Drive y Chat."
+        }
+      }
+    },
+    {
+      "seccion": "hoy",
+      "descripcion": "Participación en la sesión de [Pausa Activa AM] ¡Activemos juntos nuestro cuerpo y mente!.",
+      "id": "eb73ca06",
+      "categoria": "Reuniones",
+      "work_items": [],
+      "wi_titulos": {},
+      "tarea": "[Pausa Activa AM] ¡Activemos juntos nuestro cuerpo y mente!",
+      "tipo": "Gestión",
+      "estado_tk": "",
+      "inicio": "11:00",
+      "fin": "11:15",
+      "horas": null,
+      "puntos": null,
+      "crear_tk": true,
+      "origen": "calendar:7gs9lstahk7jhkokuas5o299c6_R20261105T160000@google.com|2026-11-06T11:00:00-05:00",
+      "tks": [],
+      "resultado": {
+        "drive": {
+          "estado": "ok",
+          "detalle": "Incluida en el documento (actualizado)."
+        },
+        "chat": {
+          "estado": "ok",
+          "detalle": "Incluida en el mensaje enviado."
+        },
+        "fecha": "2026-11-06T08:19:57",
+        "azure": {
+          "estado": "omitido",
+          "detalle": "Sin work item relacionado: solo va a Drive y Chat."
+        }
+      }
+    },
+    {
+      "seccion": "hoy",
+      "descripcion": "Participación en la sesión de 💚🩺 Tips en salud: ¡Cuidado y protección!.",
+      "id": "bdd442d4",
+      "categoria": "Reuniones",
+      "work_items": [],
+      "wi_titulos": {},
+      "tarea": "💚🩺 Tips en salud: ¡Cuidado y protección!",
+      "tipo": "Gestión",
+      "estado_tk": "",
+      "inicio": "15:00",
+      "fin": "16:00",
+      "horas": null,
+      "puntos": null,
+      "crear_tk": true,
+      "origen": "calendar:7ubafj6urp2f8ff49ptbf786ht@google.com|2026-11-06T15:00:00-05:00",
+      "tks": [],
+      "resultado": {
+        "drive": {
+          "estado": "ok",
+          "detalle": "Incluida en el documento (actualizado)."
+        },
+        "chat": {
+          "estado": "ok",
+          "detalle": "Incluida en el mensaje enviado."
+        },
+        "fecha": "2026-11-06T08:19:57",
+        "azure": {
+          "estado": "omitido",
+          "detalle": "Sin work item relacionado: solo va a Drive y Chat."
+        }
+      }
+    },
+    {
+      "seccion": "hoy",
+      "descripcion": "Participación en la sesión de [Pausa Activa PM] ¡Activemos juntos nuestro cuerpo y mente!.",
+      "id": "53787c4a",
+      "categoria": "Reuniones",
+      "work_items": [],
+      "wi_titulos": {},
+      "tarea": "[Pausa Activa PM] ¡Activemos juntos nuestro cuerpo y mente!",
+      "tipo": "Gestión",
+      "estado_tk": "",
+      "inicio": "16:00",
+      "fin": "16:15",
+      "horas": null,
+      "puntos": null,
+      "crear_tk": true,
+      "origen": "calendar:51igke2sbatfamh0nfduiu06h8_R20261105T210000@google.com|2026-11-06T16:00:00-05:00",
+      "tks": [],
+      "resultado": {
+        "drive": {
+          "estado": "ok",
+          "detalle": "Incluida en el documento (actualizado)."
+        },
+        "chat": {
+          "estado": "ok",
+          "detalle": "Incluida en el mensaje enviado."
+        },
+        "fecha": "2026-11-06T08:19:57",
+        "azure": {
+          "estado": "omitido",
+          "detalle": "Sin work item relacionado: solo va a Drive y Chat."
+        }
+      }
+    },
+    {
+      "seccion": "ayer",
+      "descripcion": "Prueba sobre TK y mensaje",
+      "id": "1f4b2f1b",
+      "categoria": "Prueba",
+      "work_items": [],
+      "wi_titulos": {},
+      "tarea": "",
+      "tipo": "",
+      "estado_tk": "",
+      "inicio": "",
+      "fin": "",
+      "horas": null,
+      "puntos": null,
+      "crear_tk": true,
+      "origen": "manual",
+      "tks": [
+        {
+          "wi": 346301,
+          "tk": 560097,
+          "url": "https://dev.azure.com/Linktic/416%20Positiva%20CORE%202026/_workitems/edit/560097"
+        }
+      ],
+      "resultado": {
+        "drive": {
+          "estado": "ok",
+          "detalle": "Incluida en el documento (actualizado)."
+        },
+        "chat": {
+          "estado": "ok",
+          "detalle": "Incluida en el mensaje enviado."
+        },
+        "fecha": "2026-11-06T08:19:57",
+        "azure": {
+          "estado": "ok",
+          "detalle": "TK 560097 ya existía en WI 346301 (no se duplica).",
+          "tks": [
+            {
+              "wi": 346301,
+              "tk": 560097,
+              "url": "https://dev.azure.com/Linktic/416%20Positiva%20CORE%202026/_workitems/edit/560097",
+              "estado": "existente",
+              "detalle": "TK 560097 ya existía en WI 346301 (no se duplica)."
+            }
+          ]
+        }
+      }
+    },
+    {
+      "seccion": "ayer",
+      "descripcion": "PRUEBA TK NO TOMAR EN CUENTA",
+      "id": "9bcf0b5d",
+      "categoria": "Prueba",
+      "work_items": [],
+      "wi_titulos": {},
+      "tarea": "",
+      "tipo": "",
+      "estado_tk": "",
+      "inicio": "",
+      "fin": "",
+      "horas": null,
+      "puntos": null,
+      "crear_tk": true,
+      "origen": "manual",
+      "tks": [],
+      "resultado": {}
+    }
+  ],
+  "recordar": {
+    "Daily Siniestros": {
+      "work_items": [],
+      "wi_titulos": {},
+      "categoria": "Reuniones",
+      "tipo": "Gestión",
+      "ripor_proyecto": null,
+      "ripor_tarea": null,
+      "ripor_nombre": ""
+    }
+  }
+}

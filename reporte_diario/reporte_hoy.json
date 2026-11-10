@@ -1,0 +1,43 @@
+{
+  "fecha": "2026-11-10",
+  "fecha_ayer": "2026-11-09",
+  "sprint": 16,
+  "tipo": "Gestión",
+  "autor": "Jesús Sotaquira",
+  "saludo": "Buen día",
+  "blocker": "No",
+  "ripor_proyecto": 469,
+  "ripor_tarea": 3036,
+  "ripor_nombre": "0416001 · 416 - PROYECTO DE DESARROLLO Y SOPORTE CORE POSITIVA › Tarea Personalizada",
+  "ripor_horas": null,
+  "transporte": "moto_particular",
+  "drive_url": "",
+  "drive_urls": {
+    "2026-11-06": "https://docs.google.com/document/d/1q5QlZFrkAzqqy0Zw9UZLrhEmKdDORp-TyEDFYoWBp2k/edit?usp=drivesdk"
+  },
+  "ripor_fecha": "",
+  "ripor_evidencia": "",
+  "ripor_registros": {
+    "2026-11-05": "2026-11-06T14:10:14"
+  },
+  "drive_doc": {},
+  "tareas": [],
+  "recordar": {
+    "Daily Siniestros": {
+      "work_items": [],
+      "wi_titulos": {},
+      "categoria": "Reuniones",
+      "tipo": "Gestión"
+    },
+    "[Pausa Activa PM] ¡Activemos juntos nuestro cuerpo y mente!": {
+      "work_items": [
+        346301
+      ],
+      "wi_titulos": {
+        "346301": "416_AP_EMI_HU196_ESTADOS DE LA SOLICITUD DE PÓLIZA-EMISIÓN"
+      },
+      "categoria": "Reuniones",
+      "tipo": "Gestión"
+    }
+  }
+}

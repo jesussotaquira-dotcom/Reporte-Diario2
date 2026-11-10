@@ -1,0 +1,160 @@
+{
+  "fecha": "2026-11-10",
+  "fecha_ayer": "2026-11-09",
+  "sprint": 16,
+  "tipo": "Gestión",
+  "autor": "Jesús Sotaquira",
+  "saludo": "Buen día",
+  "blocker": "No",
+  "ripor_proyecto": 469,
+  "ripor_tarea": 3036,
+  "ripor_nombre": "0416001 · 416 - PROYECTO DE DESARROLLO Y SOPORTE CORE POSITIVA › Tarea Personalizada",
+  "ripor_horas": null,
+  "transporte": "moto_particular",
+  "drive_url": "",
+  "drive_urls": {
+    "2026-11-06": "https://docs.google.com/document/d/1q5QlZFrkAzqqy0Zw9UZLrhEmKdDORp-TyEDFYoWBp2k/edit?usp=drivesdk"
+  },
+  "ripor_fecha": "",
+  "ripor_evidencia": "",
+  "ripor_registros": {
+    "2026-11-05": "2026-11-06T14:10:14"
+  },
+  "drive_doc": {},
+  "tareas": [
+    {
+      "seccion": "ayer",
+      "descripcion": "Daily Siniestros",
+      "id": "63f7e28f",
+      "categoria": "",
+      "work_items": [],
+      "wi_titulos": {},
+      "tarea": "",
+      "tipo": "",
+      "estado_tk": "",
+      "inicio": "",
+      "fin": "",
+      "horas": null,
+      "puntos": null,
+      "crear_tk": true,
+      "origen": "manual",
+      "evento": "",
+      "tks": [],
+      "resultado": {}
+    },
+    {
+      "seccion": "ayer",
+      "descripcion": "generación de md HU 196",
+      "id": "2cf7df3e",
+      "categoria": "",
+      "work_items": [
+        346301
+      ],
+      "wi_titulos": {
+        "346301": "416_AP_EMI_HU196_ESTADOS DE LA SOLICITUD DE PÓLIZA-EMISIÓN"
+      },
+      "tarea": "",
+      "tipo": "",
+      "estado_tk": "",
+      "inicio": "",
+      "fin": "",
+      "horas": null,
+      "puntos": 1,
+      "crear_tk": true,
+      "origen": "manual",
+      "evento": "",
+      "tks": [],
+      "resultado": {}
+    },
+    {
+      "seccion": "ayer",
+      "descripcion": "Validación de obsv. de QA sobre la HU192",
+      "id": "bb53e561",
+      "categoria": "",
+      "work_items": [
+        346301
+      ],
+      "wi_titulos": {
+        "346301": "416_AP_EMI_HU196_ESTADOS DE LA SOLICITUD DE PÓLIZA-EMISIÓN"
+      },
+      "tarea": "",
+      "tipo": "",
+      "estado_tk": "",
+      "inicio": "",
+      "fin": "",
+      "horas": null,
+      "puntos": 3,
+      "crear_tk": true,
+      "origen": "manual",
+      "evento": "",
+      "tks": [],
+      "resultado": {}
+    },
+    {
+      "seccion": "ayer",
+      "descripcion": "Sesión Pausa Activa AM",
+      "id": "7f8de867",
+      "categoria": "",
+      "work_items": [
+        346301
+      ],
+      "wi_titulos": {
+        "346301": "416_AP_EMI_HU196_ESTADOS DE LA SOLICITUD DE PÓLIZA-EMISIÓN"
+      },
+      "tarea": "",
+      "tipo": "",
+      "estado_tk": "",
+      "inicio": "",
+      "fin": "",
+      "horas": null,
+      "puntos": 2,
+      "crear_tk": true,
+      "origen": "manual",
+      "evento": "",
+      "tks": [],
+      "resultado": {}
+    },
+    {
+      "seccion": "ayer",
+      "descripcion": "Sesión Pausa Activa PM",
+      "id": "3fd082cb",
+      "categoria": "",
+      "work_items": [
+        346301
+      ],
+      "wi_titulos": {
+        "346301": "416_AP_EMI_HU196_ESTADOS DE LA SOLICITUD DE PÓLIZA-EMISIÓN"
+      },
+      "tarea": "",
+      "tipo": "",
+      "estado_tk": "",
+      "inicio": "",
+      "fin": "",
+      "horas": null,
+      "puntos": 1,
+      "crear_tk": true,
+      "origen": "manual",
+      "evento": "",
+      "tks": [],
+      "resultado": {}
+    }
+  ],
+  "recordar": {
+    "Daily Siniestros": {
+      "work_items": [],
+      "wi_titulos": {},
+      "categoria": "Reuniones",
+      "tipo": "Gestión"
+    },
+    "[Pausa Activa PM] ¡Activemos juntos nuestro cuerpo y mente!": {
+      "work_items": [
+        346301
+      ],
+      "wi_titulos": {
+        "346301": "416_AP_EMI_HU196_ESTADOS DE LA SOLICITUD DE PÓLIZA-EMISIÓN"
+      },
+      "categoria": "Reuniones",
+      "tipo": "Gestión"
+    }
+  }
+}

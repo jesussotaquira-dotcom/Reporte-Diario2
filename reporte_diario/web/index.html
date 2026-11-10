@@ -1,0 +1,218 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Reporte diario</title>
+  <link rel="stylesheet" href="estilos.css">
+  <link rel="icon" href="favicon.ico">
+</head>
+<body>
+  <header class="barra-superior">
+    <h1>Reporte diario</h1>
+    <div class="acciones">
+      <button type="button" id="btn-calendar" class="secundario">Importar reuniones de Calendar</button>
+      <button type="button" id="btn-nuevo-dia" class="secundario">Nuevo día</button>
+      <button type="button" id="btn-limpiar" class="secundario peligro">Limpiar tareas</button>
+      <button type="button" id="btn-cerrar-app" class="secundario" title="Apaga el programa; se vuelve a abrir con el acceso directo">Cerrar programa</button>
+    </div>
+  </header>
+
+  <!-- Estado de las sesiones (Google vence cada día en Linktic) -->
+  <div id="sesiones" class="sesiones" aria-live="polite"></div>
+
+  <!-- Aviso si el reporte es de un día anterior (o si falta la llave local) -->
+  <div id="aviso-fecha" class="sesion pendiente aviso-fecha" role="alert" hidden></div>
+
+  <main>
+    <!-- Datos generales del reporte -->
+    <section class="panel" aria-labelledby="t-cabecera">
+      <h2 id="t-cabecera">Datos del reporte</h2>
+      <div class="rejilla-cabecera" id="cabecera">
+        <label>Fecha (hoy)<input type="date" name="fecha"></label>
+        <label>Fecha de «ayer»<input type="date" name="fecha_ayer"></label>
+        <label>Sprint<input type="number" name="sprint" min="1" placeholder="16"></label>
+        <label>Tipo de TK por defecto
+          <select name="tipo">
+            <option value="">—</option>
+            <option>Gestión</option>
+            <option>Producto</option>
+          </select>
+        </label>
+        <label>Autor<input type="text" name="autor"></label>
+        <label>Saludo<input type="text" name="saludo"></label>
+        <label class="ancho">¿Tengo algún blocker / stopper?<input type="text" name="blocker"></label>
+      </div>
+      <fieldset class="bloque-ripor" id="cabecera-ripor">
+        <legend>RIPOR (reporte de horas)</legend>
+        <div class="rejilla-cabecera">
+          <label>Día a reportar<input type="date" name="ripor_fecha"></label>
+          <label>Proyecto<select name="ripor_proyecto"></select></label>
+          <label>Tarea<select name="ripor_tarea"></select></label>
+          <label>Horas dedicadas
+            <input type="number" name="ripor_horas" min="1" max="24" step="0.5" placeholder="Automático">
+          </label>
+          <label>Medio de transporte<select name="transporte"></select></label>
+          <label class="ancho">Evidencia
+            <input type="url" name="ripor_evidencia" placeholder="Automático: el Doc de Drive de ese día">
+          </label>
+          <div class="ripor-acciones">
+            <button type="button" id="btn-ripor" class="secundario">Cargar proyectos de RIPOR</button>
+          </div>
+        </div>
+        <p class="estado-ripor" id="estado-ripor"></p>
+        <small class="ayuda" id="ayuda-ripor">Se registra un solo reporte por día: el texto del daily (lo mismo que va
+          a Chat) y como evidencia el enlace del Doc del día en Drive. Si no eliges proyecto y tarea, se usan solos
+          tu proyecto vigente y su «Tarea personalizada». Horas automáticas: 8,5 de lunes a jueves y 8 el viernes,
+          menos lo que ya hayas reportado. RIPOR no deja editar ni borrar un registro desde aquí.</small>
+      </fieldset>
+    </section>
+
+    <div class="columnas">
+      <!-- Formulario de tarea -->
+      <section class="panel" id="panel-form" aria-labelledby="titulo-form">
+        <h2 id="titulo-form">Nueva tarea</h2>
+        <div class="pestanas modo-form" id="modo-form" role="group" aria-label="Cómo agregar">
+          <label><input type="radio" name="modo" value="una" checked><span>Una tarea</span></label>
+          <label><input type="radio" name="modo" value="varias"><span>Varias a la vez</span></label>
+        </div>
+        <form id="form-tarea" autocomplete="off">
+          <fieldset class="seccion-radio">
+            <legend>Sección</legend>
+            <div class="pestanas">
+              <label><input type="radio" name="seccion" value="ayer" checked><span>¿Qué hice ayer?</span></label>
+              <label><input type="radio" name="seccion" value="hoy"><span>¿Qué voy a hacer hoy?</span></label>
+            </div>
+          </fieldset>
+
+          <div id="solo-una-arriba">
+          <label>Descripción (tal como va en el reporte)
+            <textarea name="descripcion" id="f-descripcion" rows="3" required
+              placeholder="Revisión y respuesta a las inquietudes del equipo de QA relacionadas con la HU309 de Novedades."></textarea>
+          </label>
+          </div>
+
+          <label>Categoría
+            <input type="text" name="categoria" list="lista-categorias" placeholder="Reuniones, Refinamiento, QA…">
+          </label>
+          <datalist id="lista-categorias"></datalist>
+
+          <div id="bloque-lote" class="bloque-lote" hidden>
+            <label>Tareas, una por línea: <code>-Tarea/WI/puntos</code>
+              <textarea id="f-lote" rows="7" spellcheck="true"
+                placeholder="-Informe semanal proceso Migración/346364/1&#10;-Revisión de la HU309 con QA/346301&#10;-Participación en la Daily del equipo"></textarea>
+            </label>
+            <div class="adjuntar-lote">
+              <button type="button" id="btn-archivo-lote" class="secundario">Adjuntar archivo (.txt o Word)</button>
+              <input type="file" id="f-archivo-lote" accept=".txt,.docx,text/plain,application/vnd.openxmlformats-officedocument.wordprocessingml.document" hidden>
+              <small class="ayuda">o arrástralo al cuadro. Su texto se agrega al cuadro para revisarlo.</small>
+            </div>
+            <small class="ayuda">El WI y los puntos son opcionales. Sin WI, la tarea va a Drive, Chat y RIPOR pero no
+              crea TK. Con WI y sin puntos, el TK lleva 1 punto. Varios WI: <code>/346364,482680</code>. También puedes
+              escribirlas seguidas en una línea: <code>-Tarea uno/346364 -Tarea dos</code>.</small>
+            <div id="vista-lote" class="vista-lote" aria-live="polite"></div>
+          </div>
+
+          <div id="solo-una">
+          <div class="campo">
+            <span class="etiqueta">Work items relacionados (HU, Feature de la célula…)</span>
+            <div id="wi-fichas" class="fichas-wi"></div>
+            <div class="buscador">
+              <input type="search" id="wi-buscar" placeholder="HU533 o número de work item" aria-label="Buscar work item">
+              <button type="button" id="btn-buscar-wi" class="secundario">Buscar</button>
+            </div>
+            <ul id="resultados-wi" class="resultados-wi"></ul>
+            <small class="ayuda">Cada tarea crea su propio TK en cada work item que relaciones.</small>
+          </div>
+
+          <div class="fila">
+            <label>Inicio<input type="time" name="inicio"></label>
+            <label>Fin<input type="time" name="fin"></label>
+            <label>u horas<input type="number" name="horas" min="0.25" max="24" step="0.25"></label>
+          </div>
+
+          <p class="sin-tk ayuda" id="sin-tk">Sin work item, esta tarea va a Drive, Chat y RIPOR pero no crea TK.</p>
+          <fieldset class="bloque-tk" id="bloque-tk" hidden>
+            <legend>Datos del TK</legend>
+            <div class="fila">
+              <label>Puntos de historia
+                <select name="puntos" id="f-puntos"></select>
+              </label>
+              <label>Estado
+                <select name="estado_tk" id="f-estado-tk">
+                  <option value="">Por defecto</option>
+                  <option value="Closed">Cerrado</option>
+                  <option value="Active">Activo (abierto)</option>
+                  <option value="New">Nuevo</option>
+                </select>
+              </label>
+            </div>
+            <small class="ayuda guia-puntos" id="guia-puntos"></small>
+            <details id="detalles-tk">
+              <summary>Más opciones del TK</summary>
+              <label>Nombre corto del TK
+                <input type="text" name="tarea" placeholder="Por defecto, la descripción">
+              </label>
+              <label>Tipo
+                <select name="tipo">
+                  <option value="">El del reporte</option>
+                  <option>Gestión</option>
+                  <option>Producto</option>
+                </select>
+              </label>
+              <label class="casilla"><input type="checkbox" name="crear_tk" checked> Crear TK en Azure DevOps</label>
+            </details>
+          </fieldset>
+          </div>
+
+          <p id="error-form" class="error" role="alert"></p>
+          <div class="botones">
+            <button type="submit" class="primario" id="btn-guardar">Agregar tarea</button>
+            <button type="button" class="secundario" id="btn-cancelar" hidden>Cancelar</button>
+            <small class="ayuda atajo">Ctrl + Enter para guardar</small>
+          </div>
+        </form>
+      </section>
+
+      <!-- Lista de tareas agrupadas por categoría -->
+      <section class="panel" id="panel-lista" aria-labelledby="t-tareas">
+        <div class="titulo-lista">
+          <h2 id="t-tareas">Tareas</h2>
+          <div class="acciones-lista">
+            <button type="button" class="enlace" id="btn-desplegar">Desplegar todo</button>
+            <button type="button" class="enlace" id="btn-plegar">Plegar todo</button>
+          </div>
+        </div>
+        <div class="barra-seleccion">
+          <label class="casilla"><input type="checkbox" id="sel-todas"> Todas</label>
+          <span id="contador" class="contador">0 seleccionadas</span>
+          <span class="separador"></span>
+          <fieldset class="destinos">
+            <legend>Destinos</legend>
+            <label class="casilla"><input type="checkbox" id="dest-devops" checked> Azure</label>
+            <label class="casilla"><input type="checkbox" id="dest-drive" checked> Drive</label>
+            <label class="casilla"><input type="checkbox" id="dest-chat" checked> Chat</label>
+            <label class="casilla"><input type="checkbox" id="dest-ripor"> RIPOR</label>
+          </fieldset>
+          <label class="casilla"><input type="checkbox" id="simular"> Simular</label>
+          <button type="button" id="btn-subir" class="primario">Subir seleccionadas</button>
+        </div>
+        <div id="grupos"></div>
+      </section>
+    </div>
+
+    <!-- Resultado de la última subida -->
+    <section class="panel" id="panel-resultado" hidden aria-labelledby="t-resultado">
+      <h2 id="t-resultado">Resultado de la subida</h2>
+      <div id="resumen"></div>
+      <details id="detalle-chat" hidden>
+        <summary>Mensaje de Chat</summary>
+        <pre id="texto-chat"></pre>
+      </details>
+    </section>
+  </main>
+
+  <div id="aviso" class="aviso" role="status" hidden></div>
+  <script src="app.js"></script>
+</body>
+</html>

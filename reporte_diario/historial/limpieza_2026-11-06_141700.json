@@ -1,0 +1,387 @@
+{
+  "fecha": "2026-11-06",
+  "fecha_ayer": "2026-11-05",
+  "sprint": 16,
+  "tipo": "Gestión",
+  "autor": "Jesús Sotaquira",
+  "saludo": "Buen día",
+  "blocker": "No",
+  "ripor_proyecto": 469,
+  "ripor_tarea": 3036,
+  "ripor_nombre": "0416001 · 416 - PROYECTO DE DESARROLLO Y SOPORTE CORE POSITIVA › Tarea Personalizada",
+  "ripor_horas": 8.0,
+  "transporte": "moto_particular",
+  "drive_url": "https://docs.google.com/document/d/1q5QlZFrkAzqqy0Zw9UZLrhEmKdDORp-TyEDFYoWBp2k/edit?usp=drivesdk",
+  "drive_urls": {
+    "2026-11-06": "https://docs.google.com/document/d/1q5QlZFrkAzqqy0Zw9UZLrhEmKdDORp-TyEDFYoWBp2k/edit?usp=drivesdk"
+  },
+  "ripor_fecha": "",
+  "ripor_evidencia": "",
+  "ripor_registros": {
+    "2026-11-05": "2026-11-06T14:10:14"
+  },
+  "tareas": [
+    {
+      "seccion": "ayer",
+      "descripcion": "Participación en la sesión de Daily Siniestros.",
+      "id": "c732a2a5",
+      "categoria": "Reuniones",
+      "work_items": [],
+      "wi_titulos": {},
+      "tarea": "Daily Siniestros",
+      "tipo": "Gestión",
+      "estado_tk": "",
+      "inicio": "09:00",
+      "fin": "09:15",
+      "horas": null,
+      "puntos": null,
+      "crear_tk": true,
+      "origen": "calendar:24m1oks4m6heb4rmne2br9v12l_R20260918T140000@google.com|2026-11-05T09:00:00-05:00",
+      "tks": [],
+      "resultado": {
+        "azure": {
+          "estado": "omitido",
+          "detalle": "Sin work item relacionado: no crea TK."
+        },
+        "drive": {
+          "estado": "ok",
+          "detalle": "Incluida en el documento (actualizado)."
+        },
+        "chat": {
+          "estado": "ok",
+          "detalle": "Incluida en el mensaje enviado."
+        },
+        "ripor": {
+          "estado": "ok",
+          "detalle": "8.0 h registradas el 2026-11-05 en 0416001 · 416 - PROYECTO DE DESARROLLO Y SOPORTE CORE POSITIVA › Tarea Personalizada; el día suma 8 h."
+        },
+        "fecha": "2026-11-06T14:10:14"
+      }
+    },
+    {
+      "seccion": "ayer",
+      "descripcion": "Participación en la sesión de 416 - Validación de preguntas funcionales para specs.",
+      "id": "eed2b69a",
+      "categoria": "Reuniones",
+      "work_items": [],
+      "wi_titulos": {},
+      "tarea": "416 - Validación de preguntas funcionales para specs",
+      "tipo": "Gestión",
+      "estado_tk": "",
+      "inicio": "09:30",
+      "fin": "16:00",
+      "horas": null,
+      "puntos": null,
+      "crear_tk": true,
+      "origen": "calendar:1bl9skpf44rqm8dru3quldkgnf@google.com|2026-11-05T09:30:00-05:00",
+      "tks": [],
+      "resultado": {
+        "azure": {
+          "estado": "omitido",
+          "detalle": "Sin work item relacionado: no crea TK."
+        },
+        "drive": {
+          "estado": "ok",
+          "detalle": "Incluida en el documento (actualizado)."
+        },
+        "chat": {
+          "estado": "ok",
+          "detalle": "Incluida en el mensaje enviado."
+        },
+        "ripor": {
+          "estado": "ok",
+          "detalle": "8.0 h registradas el 2026-11-05 en 0416001 · 416 - PROYECTO DE DESARROLLO Y SOPORTE CORE POSITIVA › Tarea Personalizada; el día suma 8 h."
+        },
+        "fecha": "2026-11-06T14:10:14"
+      }
+    },
+    {
+      "seccion": "ayer",
+      "descripcion": "Participación en la sesión de [Pausa Activa AM] ¡Activemos juntos nuestro cuerpo y mente!.",
+      "id": "44d4c02d",
+      "categoria": "Reuniones",
+      "work_items": [],
+      "wi_titulos": {},
+      "tarea": "[Pausa Activa AM] ¡Activemos juntos nuestro cuerpo y mente!",
+      "tipo": "Gestión",
+      "estado_tk": "",
+      "inicio": "11:00",
+      "fin": "11:15",
+      "horas": null,
+      "puntos": null,
+      "crear_tk": true,
+      "origen": "calendar:7gs9lstahk7jhkokuas5o299c6_R20261105T160000@google.com|2026-11-05T11:00:00-05:00",
+      "tks": [],
+      "resultado": {
+        "azure": {
+          "estado": "omitido",
+          "detalle": "Sin work item relacionado: no crea TK."
+        },
+        "drive": {
+          "estado": "ok",
+          "detalle": "Incluida en el documento (actualizado)."
+        },
+        "chat": {
+          "estado": "ok",
+          "detalle": "Incluida en el mensaje enviado."
+        },
+        "ripor": {
+          "estado": "ok",
+          "detalle": "8.0 h registradas el 2026-11-05 en 0416001 · 416 - PROYECTO DE DESARROLLO Y SOPORTE CORE POSITIVA › Tarea Personalizada; el día suma 8 h."
+        },
+        "fecha": "2026-11-06T14:10:14"
+      }
+    },
+    {
+      "seccion": "ayer",
+      "descripcion": "Participación en la sesión de Automatización reporte de tareas TK.",
+      "id": "656a1780",
+      "categoria": "Reuniones",
+      "work_items": [],
+      "wi_titulos": {},
+      "tarea": "Automatización reporte de tareas TK",
+      "tipo": "Gestión",
+      "estado_tk": "",
+      "inicio": "13:30",
+      "fin": "14:30",
+      "horas": null,
+      "puntos": null,
+      "crear_tk": true,
+      "origen": "calendar:6c1tnekdspo1e2n86g5iancng1@google.com|2026-11-05T13:30:00-05:00",
+      "tks": [],
+      "resultado": {
+        "azure": {
+          "estado": "omitido",
+          "detalle": "Sin work item relacionado: no crea TK."
+        },
+        "drive": {
+          "estado": "ok",
+          "detalle": "Incluida en el documento (actualizado)."
+        },
+        "chat": {
+          "estado": "ok",
+          "detalle": "Incluida en el mensaje enviado."
+        },
+        "ripor": {
+          "estado": "ok",
+          "detalle": "8.0 h registradas el 2026-11-05 en 0416001 · 416 - PROYECTO DE DESARROLLO Y SOPORTE CORE POSITIVA › Tarea Personalizada; el día suma 8 h."
+        },
+        "fecha": "2026-11-06T14:10:14"
+      }
+    },
+    {
+      "seccion": "ayer",
+      "descripcion": "Participación en la sesión de 🚭Cap- ¡Prevención del consumo de tabaco! 🙌.",
+      "id": "76c6066c",
+      "categoria": "Reuniones",
+      "work_items": [],
+      "wi_titulos": {},
+      "tarea": "🚭Cap- ¡Prevención del consumo de tabaco! 🙌",
+      "tipo": "Gestión",
+      "estado_tk": "",
+      "inicio": "15:00",
+      "fin": "16:00",
+      "horas": null,
+      "puntos": null,
+      "crear_tk": true,
+      "origen": "calendar:77vao6unaafmcvpp7ssafimj20@google.com|2026-11-05T15:00:00-05:00",
+      "tks": [],
+      "resultado": {
+        "azure": {
+          "estado": "omitido",
+          "detalle": "Sin work item relacionado: no crea TK."
+        },
+        "drive": {
+          "estado": "ok",
+          "detalle": "Incluida en el documento (actualizado)."
+        },
+        "chat": {
+          "estado": "ok",
+          "detalle": "Incluida en el mensaje enviado."
+        },
+        "ripor": {
+          "estado": "ok",
+          "detalle": "8.0 h registradas el 2026-11-05 en 0416001 · 416 - PROYECTO DE DESARROLLO Y SOPORTE CORE POSITIVA › Tarea Personalizada; el día suma 8 h."
+        },
+        "fecha": "2026-11-06T14:10:14"
+      }
+    },
+    {
+      "seccion": "ayer",
+      "descripcion": "Participación en la sesión de [Pausa Activa PM] ¡Activemos juntos nuestro cuerpo y mente!.",
+      "id": "2a4ecefb",
+      "categoria": "Reuniones",
+      "work_items": [],
+      "wi_titulos": {},
+      "tarea": "[Pausa Activa PM] ¡Activemos juntos nuestro cuerpo y mente!",
+      "tipo": "Gestión",
+      "estado_tk": "",
+      "inicio": "16:00",
+      "fin": "16:15",
+      "horas": null,
+      "puntos": null,
+      "crear_tk": true,
+      "origen": "calendar:51igke2sbatfamh0nfduiu06h8_R20261105T210000@google.com|2026-11-05T16:00:00-05:00",
+      "tks": [],
+      "resultado": {
+        "azure": {
+          "estado": "omitido",
+          "detalle": "Sin work item relacionado: no crea TK."
+        },
+        "drive": {
+          "estado": "ok",
+          "detalle": "Incluida en el documento (actualizado)."
+        },
+        "chat": {
+          "estado": "ok",
+          "detalle": "Incluida en el mensaje enviado."
+        },
+        "ripor": {
+          "estado": "ok",
+          "detalle": "8.0 h registradas el 2026-11-05 en 0416001 · 416 - PROYECTO DE DESARROLLO Y SOPORTE CORE POSITIVA › Tarea Personalizada; el día suma 8 h."
+        },
+        "fecha": "2026-11-06T14:10:14"
+      }
+    },
+    {
+      "seccion": "hoy",
+      "descripcion": "Participación en la sesión de Daily Siniestros.",
+      "id": "10efa2cc",
+      "categoria": "Reuniones",
+      "work_items": [],
+      "wi_titulos": {},
+      "tarea": "Daily Siniestros",
+      "tipo": "Gestión",
+      "estado_tk": "",
+      "inicio": "09:00",
+      "fin": "09:15",
+      "horas": null,
+      "puntos": null,
+      "crear_tk": true,
+      "origen": "calendar:24m1oks4m6heb4rmne2br9v12l_R20260918T140000@google.com|2026-11-06T09:00:00-05:00",
+      "tks": [],
+      "resultado": {}
+    },
+    {
+      "seccion": "hoy",
+      "descripcion": "Participación en la sesión de 416 - Validación de preguntas funcionales para specs.",
+      "id": "062a1e2c",
+      "categoria": "Reuniones",
+      "work_items": [],
+      "wi_titulos": {},
+      "tarea": "416 - Validación de preguntas funcionales para specs",
+      "tipo": "Gestión",
+      "estado_tk": "",
+      "inicio": "09:30",
+      "fin": "16:00",
+      "horas": null,
+      "puntos": null,
+      "crear_tk": true,
+      "origen": "calendar:1bl9skpf44rqm8dru3quldkgnf@google.com|2026-11-06T09:30:00-05:00",
+      "tks": [],
+      "resultado": {}
+    },
+    {
+      "seccion": "hoy",
+      "descripcion": "Participación en la sesión de [Pausa Activa AM] ¡Activemos juntos nuestro cuerpo y mente!.",
+      "id": "7e7e6b89",
+      "categoria": "Reuniones",
+      "work_items": [],
+      "wi_titulos": {},
+      "tarea": "[Pausa Activa AM] ¡Activemos juntos nuestro cuerpo y mente!",
+      "tipo": "Gestión",
+      "estado_tk": "",
+      "inicio": "11:00",
+      "fin": "11:15",
+      "horas": null,
+      "puntos": null,
+      "crear_tk": true,
+      "origen": "calendar:7gs9lstahk7jhkokuas5o299c6_R20261105T160000@google.com|2026-11-06T11:00:00-05:00",
+      "tks": [],
+      "resultado": {}
+    },
+    {
+      "seccion": "hoy",
+      "descripcion": "Participación en la sesión de 💚🩺 Tips en salud: ¡Cuidado y protección!.",
+      "id": "c258dd67",
+      "categoria": "Reuniones",
+      "work_items": [],
+      "wi_titulos": {},
+      "tarea": "💚🩺 Tips en salud: ¡Cuidado y protección!",
+      "tipo": "Gestión",
+      "estado_tk": "",
+      "inicio": "15:00",
+      "fin": "16:00",
+      "horas": null,
+      "puntos": null,
+      "crear_tk": true,
+      "origen": "calendar:7ubafj6urp2f8ff49ptbf786ht@google.com|2026-11-06T15:00:00-05:00",
+      "tks": [],
+      "resultado": {}
+    },
+    {
+      "seccion": "hoy",
+      "descripcion": "Participación en la sesión de [Pausa Activa PM] ¡Activemos juntos nuestro cuerpo y mente!.",
+      "id": "8bff001c",
+      "categoria": "Reuniones",
+      "work_items": [],
+      "wi_titulos": {},
+      "tarea": "[Pausa Activa PM] ¡Activemos juntos nuestro cuerpo y mente!",
+      "tipo": "Gestión",
+      "estado_tk": "",
+      "inicio": "16:00",
+      "fin": "16:15",
+      "horas": null,
+      "puntos": null,
+      "crear_tk": true,
+      "origen": "calendar:51igke2sbatfamh0nfduiu06h8_R20261105T210000@google.com|2026-11-06T16:00:00-05:00",
+      "tks": [],
+      "resultado": {}
+    },
+    {
+      "seccion": "ayer",
+      "descripcion": "Automatización reporte de tareas",
+      "id": "1b6234c7",
+      "categoria": "",
+      "work_items": [],
+      "wi_titulos": {},
+      "tarea": "",
+      "tipo": "",
+      "estado_tk": "",
+      "inicio": "",
+      "fin": "",
+      "horas": null,
+      "puntos": null,
+      "crear_tk": true,
+      "origen": "manual",
+      "tks": [],
+      "resultado": {
+        "azure": {
+          "estado": "omitido",
+          "detalle": "Sin work item relacionado: no crea TK."
+        },
+        "drive": {
+          "estado": "ok",
+          "detalle": "Incluida en el documento (actualizado)."
+        },
+        "chat": {
+          "estado": "ok",
+          "detalle": "Incluida en el mensaje enviado."
+        },
+        "ripor": {
+          "estado": "ok",
+          "detalle": "8.0 h registradas el 2026-11-05 en 0416001 · 416 - PROYECTO DE DESARROLLO Y SOPORTE CORE POSITIVA › Tarea Personalizada; el día suma 8 h."
+        },
+        "fecha": "2026-11-06T14:10:14"
+      }
+    }
+  ],
+  "recordar": {
+    "Daily Siniestros": {
+      "work_items": [],
+      "wi_titulos": {},
+      "categoria": "Reuniones",
+      "tipo": "Gestión"
+    }
+  }
+}
